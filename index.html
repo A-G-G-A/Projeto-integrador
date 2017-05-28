@@ -1,102 +1,296 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
+
 <head>
- <!-- ================= DESCRIÇÕES METADATA ============================ -->
+  <!-- ================= DESCRIÇÕES METADADADOS ============================ -->
 
-    <meta charset="UTF-8">
-    <meta name="descrição" content="Detalhes sobre a empresa nintendo">
-    <meta name="Keywords" content="SUPERMARIO,NINTENDO,SUPERNINTENDO,PROJETO,INTEGRADOR">
-    <meta name="Desenvolvedores" content="Gabriel binoto,Anderson nunes,Gabriel Oliveira,Albérico Dias">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!--============== TITULO ========== -->
+  <meta charset="UTF-8">
+  <meta name="descrição" content="Detalhes sobre a empresa nintendo">
+  <meta name="Keywords" content="SUPERMARIO,NINTENDO,SUPERNINTENDO,PROJETO,INTEGRADOR">
+  <meta name="Desenvolvedores" content="Gabriel binoto,Anderson nunes,Gabriel Oliveira,Albérico Dias">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--============== TITULO  | NOME DO PROJETO |DESENVOLVEDORES ========== -->
 
-  <title >Empresa- Nintendo | Projeto Integrador |</title>
-  <link rel="shortcut icon" href="Imagens/Icones/PaperMario.ico"  >
+  <title>Empresa- Nintendo | Projeto Integrador |Devs:Albérico,Gabriel Binoto,Anderson Nunes,Gabriel Oliveira</title>
 
-<!-- ================= ARQUIVOS E REFERENCIAS EXTERNAS ============================ -->
+  <!-- ================= ARQUIVOS E REFERENCIAS EXTERNAS ============================ -->
 
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Quicksand:300,700" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="shortcut icon" href="Imagens/Icones/PaperMario.ico"><!--ICONE DE IMAGEM DO SITE -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Quicksand:300,700" rel="stylesheet"><!--FONT COM REF. GOOGLE -->
+  <link rel="stylesheet" type="text/css" href="style.css"> <!--ESTILOS MAIS DETALHADOS -->
+  <script type="text/javascript" src="onepagFAM.js"></script>  <!-- EFEITOS ESPERADOS: |1.ESCONDER E AUMENTAR/DIMINUIR TRANSPARENCIA DO MENU|2.TRANSIÇÃO DE IMAGENS (SLIDE), CAPTURA DE EVENTOS DE AVANÇAR E RETROCEDER-->
+
+
 </head>
+
 <body>
-<!-- ================= MENU SUPERIOR ============================ -->
 
-<nav>
-  <ul class="menu">
-   <li><a href="#menuHistPrinc">História Cronológica  </a></li>
-   <ul> <li> jdjdjdjd</li></ul>
-  <li><a href="#news">News</a></li>
-  <li><a href="#contact">Contact</a></li>
-  <li><a href="#about">About</a></li>              
-</ul>
-</nav>
+  <!-- ========= MENU SUPERIOR FIXO COM REDIRECIONAMENTO ===== -->
 
-<!-- ============== BLOCO DE INFORMAÇÕES 1 =========== -->
+  <div class="menu-container">
+    <nav>
+    <ul class="menu clearfix">
+
+        <!--_________________Nível 1_______________________-->
+      <li><a href="#HistoriaPrinc">História da Nintendo	</a>
+         <!--_________________Sub menu_______________________-->
+        <ul class="sub-menu clearfix">
+          <li><a href="#HistoriaCron">Linha Cronológica</a>
+
+        <!--_________________Nível 2_______________________-->       
+            <ul class="sub-menu">
+              <li><a href="#linha0">1889 - 1979</a></li>
+              <li><a href="#linha1">1979 - 1990</a></li>
+              <li><a href="#linha2">1991 - 2000</a></li>
+              <li><a href="#linha3">2001 - 2012</a></li>
+              <li><a href="#linha4">2013 - 2017</a></li>
+            </ul>
+          </li>
+
+        <!--_________________Nível 1_______________________-->
+          <li><a href="#Produtosprinc">Produtos</a></li>
+        </ul>
+      </li>
+      <li><a href="#Grafic">Dados Estatísticos</a></li>
+      <li><a href="#Curis">Curiosidades</a></li>
+      <li><a href="#segur">Política de Segurança</a></li>
+      <li><a href="#doc">Documentação</a></li>
+          <li><a href="#refer">Referências</a></li>
+    </ul>
+  </div>
+
+  <!-- ============== BLOCO DE INFORMAÇÕES 1 =========== -->
+
+  <a name="indice do menu história" id="HistoriaPrinc"></a>
   <div class="header">
-    <div id="header-text"> <!--Add an id to this div -->
+    <div id="header-text">
+      <!-- Entrada com breve titulo -->
       <h1>Nintendo Company, Limited. </h1>
       <h2>A história da Nintendo.</h2>
     </div>
   </div>
 
-  <div class="partner"> <!--LOGO RECENTE -->
-    <h4>Logo da empresa, essa é a mais atual <img src="Imagens/Logos/Nintendo_logo_red.png" id="aa-logo" width="150px"></h4>
+  <div class="partner">
+
+    <!--LOGO RECENTE -->
+
+    <h4>Logo da empresa, essa é a mais atual &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Imagens/Logos/Nintendo_logo_red.png"
+        id="aa-logo" width="150px"></h4>
   </div>
-<!-- ============== BLOCO DE INFORMAÇÕES 2 =========== -->
-<a name="indice do menu história" id="menuHistPrinc"></a>
+
+  <!-- ============== BLOCO DE INFORMAÇÕES 2 =========== -->
+
+  <a name="indice do menu linha cronolo" id="HistoriaCron"></a>
   <div class="main">
-    <h3>História da Nintendo  Linha Cronológica 1889 - 2017</h3>
-    <p>Pioneira mundial na criação de entretenimento interativo, a Nintendo Co., Ltd., com sede em Quioto (Japão), fabrica e distribui hardware e software para as consolas de sala Wii U™ e Wii™, para a Nintendo 3DS™ e Nintendo 2DS™, e para a família de consolas portáteis Nintendo DS™. Desde 1983, quando lançou a Nintendo Entertainment System™ (NES), a Nintendo vendeu mais de 4,4 mil milhões de videojogos e 696 milhões de unidades de hardware em todo o mundo, incluindo as consolas da atual geração, a Wii U, a Wii, e as consolas da família Nintendo 3DS incluindo a New Nintendo 3DS™, a New Nintendo 3DS XL™, a Nintendo 3DS, a Nintendo 3DS XL™, a Nintendo 2DS, a Nintendo DS, a Nintendo DSi™, a Nintendo DSi XL™, assim como a GameBoy™, a GameBoy Advance™, a Super NES™, a Nintendo 64™ e a Nintendo GameCube™. Criou ainda ícones da indústria como Mario™, Donkey Kong™, Metroid™, Zelda™ e Pokémon™. Como empresa subsidiária, a Nintendo Ibérica S.A., com sede em Madrid e Lisboa, atua como centro de operações da Nintendo em Espanha e Portugal.</p>
-<!-- ============== BLOCO DE INFORMAÇÕES 3 =========== -->
+    <h3>História da Nintendo Linha Cronológica 1889 - 2017</h3>
+    <p>Pioneira mundial na criação de entretenimento interativo, a Nintendo Co., Ltd., com sede em Quioto (Japão), fabrica e
+      distribui hardware e software para as consolas de sala Wii U™ e Wii™, para a Nintendo 3DS™ e Nintendo 2DS™, e para
+      a família de consolas portáteis Nintendo DS™. Desde 1983, quando lançou a Nintendo Entertainment System™ (NES), a Nintendo
+      vendeu mais de 4,4 mil milhões de videojogos e 696 milhões de unidades de hardware em todo o mundo, incluindo as consolas
+      da atual geração, a Wii U, a Wii, e as consolas da família Nintendo 3DS incluindo a New Nintendo 3DS™, a New Nintendo
+      3DS XL™, a Nintendo 3DS, a Nintendo 3DS XL™, a Nintendo 2DS, a Nintendo DS, a Nintendo DSi™, a Nintendo DSi XL™, assim
+      como a GameBoy™, a GameBoy Advance™, a Super NES™, a Nintendo 64™ e a Nintendo GameCube™. Criou ainda ícones da indústria
+      como Mario™, Donkey Kong™, Metroid™, Zelda™ e Pokémon™. Como empresa subsidiária, a Nintendo Ibérica S.A., com sede
+      em Madrid e Lisboa, atua como centro de operações da Nintendo em Espanha e Portugal.</p>
+
+    <!-- ============== BLOCO DE INFORMAÇÕES 3 =========== -->
+
+    <a name="indice do menu linha cronolo 0" id="linha0"></a>
     <div class="value-props">
       <div class="prop">
         <img src="Imagens/Icones/ico_mario.png" width="80px">
         <h2><b>1889 - 1979</b></h2>
         <p>Em Quioto, Fusajiro Yamauchi começa a fabricar Hanafuda (flor), um jogo de cartas japonês.</p>
-        <p><i>(1979)Minoru Arakawa</i>, genro do director japonês da Nintendo, Hiroshi Yamauchi, inaugura a Nintendo América na cidade de Nova Iorque. A Nintendo abre um departamento de máquinas de jogos operadas com moedas.</p>
+        <p><i>(1979)Minoru Arakawa</i>, genro do director japonês da Nintendo, Hiroshi Yamauchi, inaugura a Nintendo América
+          na cidade de Nova Iorque. A Nintendo abre um departamento de máquinas de jogos operadas com moedas.</p>
       </div>
-<!-- ============== BLOCO DE INFORMAÇÕES 4 =========== -->
+
+      <!-- ============== BLOCO DE INFORMAÇÕES 4 =========== -->
+
+      <a name="indice do menu linha cronolo 1" id="linha1"></a>
       <div class="prop">
         <img src="Imagens/Icones/ico_wigi.png" width="80px">
-        <h2><b>1979</b></h2>
-        <p>Minoru Arakawa, genro do director japonês da Nintendo, Hiroshi Yamauchi, inaugura a Nintendo América na cidade de Nova Iorque. A Nintendo abre um departamento de máquinas de jogos operadas com moedas.</p>
-        <p><i>(1979-1990-)</i> O Japão entra no mercado dos sistemas 16 bits e lança, no Outono, o Super Famicom, enquanto a consola Game Boy é lançada na Europa e rapidamente se torna num enorme sucesso a nível mundial!<br>Em junho, a Nintendo of Europe instala-se em Grossostheim, na Alemanha, como subsidiária com propriedade absoluta.</p>
+        <h2><b>1979-1990</b></h2>
+        <p>Minoru Arakawa, genro do director japonês da Nintendo, Hiroshi Yamauchi, inaugura a Nintendo América na cidade de
+          Nova Iorque. A Nintendo abre um departamento de máquinas de jogos operadas com moedas.</p>
+        <p><i>(1979-1990-)</i> O Japão entra no mercado dos sistemas 16 bits e lança, no Outono, o Super Famicom, enquanto a
+          consola Game Boy é lançada na Europa e rapidamente se torna num enorme sucesso a nível mundial!<br>Em junho, a
+          Nintendo of Europe instala-se em Grossostheim, na Alemanha, como subsidiária com propriedade absoluta.</p>
 
-</p>
+        </p>
       </div>
-<!-- ============== BLOCO DE INFORMAÇÕES 5 =========== -->
+
+      <!-- ============== BLOCO DE INFORMAÇÕES 5 =========== -->
+
+      <a name="indice do menu linha cronolo 2" id="linha2"></a>
       <div class="prop">
         <img src="Imagens/Icones/ico_wario.png" width="80px">
         <h2><b>1991-2000</b></h2>
-        <p><b>A Super Nintendo Entertainment System</b><i> (Super Famicom)</i> é lançada na Europa em junho. São vendidas mais de 46 milhões de unidades no mundo. No Japão são lançados Super Scope (acessório para a Super NES), Mario Paint e o acessório Super NES Mouse. É lançada também para a Super NES a esperada sequela de Zelda, The Legend of Zelda: A Link to the Past..</p>
-        <p><i>(2000)</i><b>&nbsp;A Nintendo Game Boy</b> &nbsp;torna-se a consola mais vendida com vendas superiores a 100 milhões. Entretanto, a série Pokémon continua a ser um fenómeno mundial e a Nintendo comemora o seu sucesso com uma edição limitada do Pikachu Nintendo 64.<br> A N64 aumenta o seu arquivo de clássicos com êxitos como The Legend of Zelda: Majora's Mask, Ridge Racer 64 e Mario Tennis.
+        <p><b>A Super Nintendo Entertainment System</b><i> (Super Famicom)</i> é lançada na Europa em junho. São vendidas mais
+          de 46 milhões de unidades no mundo. No Japão são lançados Super Scope (acessório para a Super NES), Mario Paint
+          e o acessório Super NES Mouse. É lançada também para a Super NES a esperada sequela de Zelda, The Legend of Zelda:
+          A Link to the Past..</p>
+        <p><i>(2000)</i><b>&nbsp;A Nintendo Game Boy</b> &nbsp;torna-se a consola mais vendida com vendas superiores a 100 milhões.
+          Entretanto, a série Pokémon continua a ser um fenómeno mundial e a Nintendo comemora o seu sucesso com uma edição
+          limitada do Pikachu Nintendo 64.<br> A N64 aumenta o seu arquivo de clássicos com êxitos como The Legend of Zelda:
+          Majora's Mask, Ridge Racer 64 e Mario Tennis.
       </div>
-<!-- ============== BLOCO DE INFORMAÇÕES 6 =========== -->
-       <div class="prop">
-        <img src="Imagens/Icones/ico_inte.png" width="80px">
+
+      <!-- ============== BLOCO DE INFORMAÇÕES 6 =========== -->
+
+      <a name="indice do menu linha cronolo 3" id="linha3"></a>
+      <div class="prop">
+        <img src="Imagens/Icones/ico_luigi.png" width="80px">
         <h2><b>2001-2012</b></h2>
-        <p><b>A Nintendo UK</b> A Nintendo UK é criada em janeiro e um novo escritório é inaugurado em Slough, Berkshire, Reino Unido. Os Pokémon Gold e Silver para a Game Boy Color são lançados simultaneamente e com um grande sucesso.
-        Na Europa, a 6 de abril de 2001. No fim do semana do seu lançamento, um milhão de unidades são vendidas, tornando-se o jogo mais rapidamente vendido na Europa. A Game Boy Advance é lançada a 21 de março no Japão, 11 de junho nos E.U.A. e 22 de junho na Europa. Torna-se a consola vendida com mais rapidez, com 500 mil unidades vendidas na primeira semana na Europa. Os sucessos do lançamento da Game Boy Advance incluem os favoritos Super Mario Advance e F-Zero: Maximum Velocity.
-
-        A Nintendo GameCube é lançada a 14 de setembro de 2001 no Japão e 18 de novembro de 2001 na América. Ao todo, 2,7 milhões de unidades são enviadas até dezembro, das quais 95% são vendidas. O sucesso de vendas de Luigi's Mansion e Super Smash Bros. Melee marca tanto os jogos populares como títulos-chave para a consola.
-
-        É lançada a consola Game Boy Advance e-Reader no Japão a 1 de dezembro, que dá um novo significado à jogabilidade portátil. Os dados armazenados nos cartões Card-e podiam transferir-se através do Card-e Reader e assim passar para Game Boy Advance..</p>
-        <p><i>(2012)</i><b>&nbsp;A Nintendo U</b> &nbsp;chegou no mercado. A irmã mais nova da Nintendo 3DS, a Nintendo 3DS XL, foi também lançada.<br>A Nintendo 3DS XL, a consola portátil da Nintendo com os maiores ecrãs de sempre, chegou ao mercado em julho. Este acontecimento protagonizou um verão em cheio, marcado pelo lançamento de vários títulos em sucessão: o jogo de ação e ritmo Beat the Beat: Rhythm Paradise para a Wii, o estratégico Pokémon Conquest e New Art Academy, que continuou a ensinar um novo leque de técnicas artísticas. Em agosto foi a vez de New Super Mario Bros. 2 chegar às lojas para desafiar os fãs de Mario a apanharem um milhão de moedas de ouro!</p>
+        <p><b>A Nintendo UK</b> A Nintendo UK é criada em janeiro e um novo escritório é inaugurado em Slough, Berkshire, Reino
+          Unido. Os Pokémon Gold e Silver para a Game Boy Color são lançados simultaneamente e com um grande sucesso. Na
+          Europa, a 6 de abril de 2001. No fim do semana do seu lançamento, um milhão de unidades são vendidas, tornando-se
+          o jogo mais rapidamente vendido na Europa. A Game Boy Advance é lançada a 21 de março no Japão, 11 de junho nos
+          E.U.A. e 22 de junho na Europa. Torna-se a consola vendida com mais rapidez, com 500 mil unidades vendidas na primeira
+          semana na Europa. Os sucessos do lançamento da Game Boy Advance incluem os favoritos Super Mario Advance e F-Zero:
+          Maximum Velocity. A Nintendo GameCube é lançada a 14 de setembro de 2001 no Japão e 18 de novembro de 2001 na América.
+          Ao todo, 2,7 milhões de unidades são enviadas até dezembro, das quais 95% são vendidas. O sucesso de vendas de
+          Luigi's Mansion e Super Smash Bros. Melee marca tanto os jogos populares como títulos-chave para a consola. É lançada
+          a consola Game Boy Advance e-Reader no Japão a 1 de dezembro, que dá um novo significado à jogabilidade portátil.
+          Os dados armazenados nos cartões Card-e podiam transferir-se através do Card-e Reader e assim passar para Game
+          Boy Advance..</p>
+        <p><i>(2012)</i><b>&nbsp;A Nintendo U</b> &nbsp;chegou no mercado. A irmã mais nova da Nintendo 3DS, a Nintendo 3DS
+          XL, foi também lançada.<br>A Nintendo 3DS XL, a consola portátil da Nintendo com os maiores ecrãs de sempre, chegou
+          ao mercado em julho. Este acontecimento protagonizou um verão em cheio, marcado pelo lançamento de vários títulos
+          em sucessão: o jogo de ação e ritmo Beat the Beat: Rhythm Paradise para a Wii, o estratégico Pokémon Conquest e
+          New Art Academy, que continuou a ensinar um novo leque de técnicas artísticas. Em agosto foi a vez de New Super
+          Mario Bros. 2 chegar às lojas para desafiar os fãs de Mario a apanharem um milhão de moedas de ouro!</p>
       </div>
 
       <!-- ============== BLOCO DE INFORMAÇÕES 7 =========== -->
+
+      <a name="indice do menu linha cronolo 4" id="linha4"></a>
       <div class="prop">
         <img src="Imagens/Logos/nintendo_swift1.png" width="170px">
         <h2><b>2013-2017</b></h2>
-        <p><b>Nintendo 3ds</b>Em março, Luigi's Mansion 2, a sequela do clássico título de lançamento da Nintendo GameCube, chegou à Nintendo 3DS como parte das comemorações dos 30 anos do famoso irmão do Mario, dando início ao "Ano de Luigi".
+        <p><b>Nintendo 3ds</b>Em março, Luigi's Mansion 2, a sequela do clássico título de lançamento da Nintendo GameCube,
+          chegou à Nintendo 3DS como parte das comemorações dos 30 anos do famoso irmão do Mario, dando início ao "Ano de
+          Luigi". A Nintendo trabalhou também em colaboração com a TT Games para lançar dois títulos LEGO: LEGO® CITY Undercover
+          para a Wii U e a sua prequela, LEGO® CITY Undercover: The Chase Begins para a Nintendo 3DS. Em abril a estratégia
+          chegou à Nintendo 3DS na forma de Fire Emblem: Awakening e em maio a consola portátil recebeu, ainda, uma dose
+          dupla de Donkey Kong: Donkey Kong Country Returns 3D e Mario and Donkey Kong: Minis on the Move, disponível exclusivamente
+          para download na Nintendo eShop.</p>
 
-        A Nintendo trabalhou também em colaboração com a TT Games para lançar dois títulos LEGO: LEGO® CITY Undercover para a Wii U e a sua prequela, LEGO® CITY Undercover: The Chase Begins para a Nintendo 3DS. Em abril a estratégia chegou à Nintendo 3DS na forma de Fire Emblem: Awakening e em maio a consola portátil recebeu, ainda, uma dose dupla de Donkey Kong: Donkey Kong Country Returns 3D e Mario and Donkey Kong: Minis on the Move, disponível exclusivamente para download na Nintendo eShop.</p>
+        <p><i>(2017)</i><b>&nbsp;A Nintendo Swift</b> &nbsp;Anuncia seu novo console : Nintendo swift, foi lançado em vários
+          países em 3 março de 2017.<br>Nintendo Switch apresenta um novo sistema híbrido que conjuga console tradicional
+          com portátil. O objetivo é que você possa jogar o mesmo título quando e como quiser. O Switch funciona como um
+          console tradicional como todos conhecemos, colocando-o numa base que conecta o console à TV. Mas a novidade está
+          em poder destacar dessa base e imediatamente o console muda para o modo portátil.</p>
 
-        <p><i>(2017)</i><b>&nbsp;A Nintendo Swift</b> &nbsp;Anuncia seu novo console : Nintendo swift, foi lançado em vários países em 3 março de 2017.<br>Nintendo Switch apresenta um novo sistema híbrido que conjuga console tradicional com portátil. O objetivo é que você possa jogar o mesmo título quando e como quiser.
-        O Switch funciona como um console tradicional como todos conhecemos, colocando-o numa base que conecta o console à TV. Mas a novidade está em poder destacar dessa base e imediatamente o console muda para o modo portátil.</p>
-        <footer>Copyright &copy; W3Schools.com</footer>
       </div>
-  
-  
-</body>
+
+      <!-- ============== BLOCO DE GRAFICO =========== -->
+
+      <a name="indice do menu grafico" id="Grafic"></a>
+      <div class="prop">
+        <h3>Dados Estatísticos, Vendas (2015)</h3>
+        <img src="Imagens/Graficos/graficoa.jpg" alt="Grafico de vendas" id="grafico" />
+      </div>
+
+      <!-- ============== BLOCO DE CURIOSIDADES =========== -->
+
+      <a name="indice do menu curiosidades" id="Curis"></a>
+      <div class="prop">
+        <img src="Imagens/Icones/ico_inte.png" width="170px">
+        <h2><b>Curiosidades sobre a Nintendo piores e melhores momentos.</b></h2>
+        <p>O nome Nintendo tem significado equivalente a "confie no que vem do céu"<br><br>Em parceria com uma empresa local,
+          a Nintendo lançou em 2003 um console em formato de joystick de nome iQue Player, na China. Este videogame é baseado
+          no Nintendo 64 e, portanto, roda jogos deste console.<br><br>A Nintendo também é conhecida como Big N.<br><br>O
+          PlayStation, da Sony, o principal rival da Nintendo, era originalmente um acessório que daria capacidade ao SNES
+          de ler CDs. Todavia, a Nintendo acabou se desentendendo com a Sony e passou à Philips a tarefa de ajudá-la no acessório.
+          A Sony, por sua vez, decidiu lançar o que tinha em mãos como um console e, para o "desespero" da Nintendo, a ideia
+          deu mais do que certo<br><br>A Nintendo lançou uma versão especial do SNES em 1997. A novidade tinha tamanho melhor
+          em relação ao console original e também tinha design melhorado.<br><br>A Nintendo havia anunciado o desenvolvimento
+          de um acessório para o Nintendo 64 chamado 64 Disk Drive. O aparelho prometia jogos em discos em vez de cartuchos,
+          mas uma série de problemas fez a Nintendo desistir dele, ou quase: o 64 Disk Drive chegou a ser lançado no Japão,
+          mas em poucas unidades.<br><br>Na lista dos 500 homens mais ricos do mundo feita pela Forbes, Hiroshi Yamauchi
+          ocupou a posição de número 226 em março de 2007. Nessa época, sua fortuna foi avaliada em 3,9 bilhões de dólares.<br><br>Na
+          Coreia do Sul, o NES recebeu o nome de Hyundai Cowboy, pois na época havia uma lei que proibia a comercialização
+          de produtos japoneses no país.<br><br></p>
+
+      </div>
+
+      <!-- ============== BLOCO DE PRODUTOS   ANIMADO POR JS EXTERNO =========== -->
+
+      <a name="indice do menu Produtos" id="Produtosprinc"></a>
+      <div class="prop">
+        <h2><b>Principais Produtos</b></h2>
+        <p><i>&nbsp;&nbsp;Nas imagens abaixo, estão apenas os produtos que teve significado positivo no mercado.</i></p>
+
+        <!-- ========== FUNÇÃO E IMAGENS DE SLIDES CONTROLADO POR JS EXTERNO ====== -->
+
+        <figure>
+          <span class="trs next"></span>
+          <span class="trs prev"></span>
+          <div id="slider">
+            <a href="#" class="trs"><img src="Imagens/Produtos/Nintendo_tvgame.jpg" alt="Consoles de mesa - Color TV Game - (1977)" id="grafico"/></a>
+            <a href="#" class="trs"><img src="Imagens/Produtos/Nintendo_Enter_ System.jpg" alt="Nintendo Entertainment System (NES) - (1983)" id="grafico"/></a>
+            <a href="#" class="trs"><img src="Imagens/Produtos/DSLite.png" alt="Nintendo DS -Dual Screen -(2006)"id="grafico" /></a>
+            <a href="#" class="trs"><img src="Imagens/Produtos/wii_u.jpg" alt="Nintendo Wii U -(2012)"id="grafico" /></a>
+            <a href="#" class="trs"><img src="Imagens/Produtos/n_64.jpg" alt="Nintendo 64 -(1996)"id="grafico" /></a>
+            <a href="#" class="trs"><img src="Imagens/Produtos/n_snes.jpg" alt="SNES (Super Nintendo Entert.System) -(1990)"id="grafico" /></a>
+            <a href="#" class="trs"><img src="Imagens/Produtos/n_gmc.jpg" alt="Game Boy Color -(1998)"id="grafico" /></a>
+          </div>
+
+          <figcaption></figcaption>
+        </figure>
+        <p><b> Lista Completa de Consoles:&nbsp;&nbsp; </b>Color TV-Game,&nbsp;Game and Watch,&nbsp;NES (Nintendo Entertainment
+          System),&nbsp;Game Boy,SNES (Super Nintendo Entertainment System),&nbsp;Virtual Boy,&nbsp;Virtual Boy,&nbsp;Nintendo
+          64,&nbsp;Game Boy Pocket e Game Boy Light,&nbsp;Game Boy Color,&nbsp;GameCube,&nbsp;Game Boy Advance,&nbsp;Game
+          Boy Advance SP,&nbsp;Nintendo DS,&nbsp;Game Boy micro,&nbsp;Nintendo Wii,&nbsp;Nintendo 3DS,&nbsp;Nintendo Wii
+          U &nbsp; e &nbsp;Nintendo Switch.</p>
+      </div>
+
+
+
+      <!-- ============== BLOCO DE POLITICA E SEGURANÇA =========== -->
+
+      <a name="indice do menu politica" id="segur"></a>
+      <div class="prop">
+        <img src="Imagens/Icones/ico_wario.png" width="80px">
+        <h2><b>Politica de segurança da Equipe</b></h2>
+        <p><b>As medidas devem ser seguida por todos os membros.</b><br><br>A nossa equipe A.G.G.A concorda em adotar uma política
+          com a finalidade de proteger os projetos desenvolvidos pelos integrantes, contendo os seguintes princípios &nbsp;:<br> </p>
+         <iframe src="PsDe.pdf" width="500" height="280" style="border: none;"></iframe>
+        </div>
+
+      <!-- ============== BLOCO DE DOCUMENTAÇÃO =========== -->
+
+      <a name="indice do menu documentação" id="doc"></a>
+      <div class="prop">
+        <img src="Imagens/Icones/ico_wario.png" width="80px">
+        <h2><b>Documentações</b></h2>
+        <p>Documentação do projeto</p><iframe src="Documentacao.pdf" width="500" height="280" style="border: none;"></iframe>
+      </div>
+           <!-- ============== BLOCO DE REFERENCIAS/FONTES =========== -->
+
+      <a name="indice do menu referencias" id="refer"></a>
+      <div class="prop">
+        <img src="Imagens/Icones/ico_wario.png" width="80px">
+        <h2><b>Referências e Fontes</b></h2>
+        <h3>Serviram de base para este projeto, as seguintes páginas:</h3>
+       <a href="https://en.wikipedia.org/wiki/History_of_Nintendo">WIKIPEDIA história</a><br><br>    
+        <a href="https://es.wikipedia.org/wiki/Nintendo">WIKIPEDIA nintendo</a><br><br>
+        <a href="https://github.com/">GITHUB versionamento e git</a><br><br>
+        <a href="https://pt.stackoverflow.com">STACKOVERFLOW pesquisas de código</a><br><br>
+        <a href="https://www.w3schools.com/">W3SCHOOLS pesquisas de aplicação</a><br><br>
+      
+      </div>
+
+<!-- === footer fixo === -->
+
+
+<footer class="footer">
+  <small>Copyright © 2017&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/A-G-G-A/">Desenvolvido por A.G.G.A </small>
+
+</footer>
+
+ 
+        </body>
+
 </html>

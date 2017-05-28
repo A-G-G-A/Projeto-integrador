@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisioDocument>
+	<DocumentProperties>
+		<Title></Title>
+		<HyperlinkBase href=""></HyperlinkBase>
+	</DocumentProperties>
+	<Pages>
+		<Page ID="0" Name="Processo Superior" NameU="Top Process">
+			<PageProps>
+				<PageScale Unit="MM">0.039370078740157</PageScale>
+				<DrawingScale Unit="MM">0.039370078740157</DrawingScale>
+			</PageProps>
+			<Layer IX="0">
+				<Name>Conector</Name>
+				<NameUniv>Connector</NameUniv>
+				<Visible>1</Visible>
+			</Layer>
+			<Shapes>
+				<Shape ID="2" UniqueID="{6AD1F877-DD1C-47CB-8205-AAF7CC3F8F3F}" Name="Interface" NameU="Interface" Master="4">
+					<Text>BrainStorm
+-Empresa nintendo
+-tipo de site
+Delegar funções
+</Text>
+					<XForm>
+						<PinX Unit="MM">4.305118094822183</PinX>
+						<PinY Unit="MM">8.779527256116257</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="4" UniqueID="{870218C5-A2E4-42E9-96C4-6973017CF2CE}" Name="Conector dinâmico" NameU="Dynamic connector" Master="5">
+					<XForm>
+						<PinX Unit="MM">5.152066897293344</PinX>
+						<PinY Unit="MM">8.430117967284012</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="3" UniqueID="{5349E0D4-BF0A-42EE-BCBA-EA3365DDB4F0}" Name="Processo" NameU="Process" Master="2">
+					<Text>Gabriel Oliveira
+-CSS
+-COLETA DE IMAGENS
+-DESIGNER GERAL</Text>
+					<XForm>
+						<PinX Unit="MM">5.999015742893484</PinX>
+						<PinY Unit="MM">8.299212628019228</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="6" UniqueID="{CC347683-A2F7-4528-BF25-CF2AF3EE54E0}" Name="Conector dinâmico.6" NameU="Dynamic connector.6" Master="5">
+					<XForm>
+						<PinX Unit="MM">6.845964545364646</PinX>
+						<PinY Unit="MM">8.003937027198461</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="5" UniqueID="{8EE28DCA-C847-4AB5-8598-2352B0A20155}" Name="Processo.5" NameU="Process.5" Master="2">
+					<Text>Albérico
+-JAVASCRIPT
+-ESTRUTURA
+-CONTROLE DE VERSÃO</Text>
+					<XForm>
+						<PinX Unit="MM">7.744094479380957</PinX>
+						<PinY Unit="MM">7.708661426377692</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="8" UniqueID="{B23C2473-9A57-4074-9C48-252D08E0CE07}" Name="Conector dinâmico.8" NameU="Dynamic connector.8" Master="5">
+					<XForm>
+						<PinX Unit="MM">3.458169298367672</PinX>
+						<PinY Unit="MM">8.430117967284012</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="7" UniqueID="{E730EC18-5DDA-4228-9197-DC4C5C38E7DE}" Name="Processo.7" NameU="Process.7" Master="2">
+					<Text>Gabriel Binoto
+-HTML
+-ESCOPO PRIN.
+-WIREFRAME
+-DADOS</Text>
+					<XForm>
+						<PinX Unit="MM">2.560039358334713</PinX>
+						<PinY Unit="MM">8.299212628019228</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="10" UniqueID="{D5024429-F1F1-4CFA-A3F7-9FCF75F30C10}" Name="Conector dinâmico.10" NameU="Dynamic connector.10" Master="5">
+					<XForm>
+						<PinX Unit="MM">1.661909424318403</PinX>
+						<PinY Unit="MM">8.299212628019228</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="9" UniqueID="{617EEEA6-0391-4AF2-88AE-4482D3B81249}" Name="Processo.9" NameU="Process.9" Master="2">
+					<Text>Anderson Nunes
+-LIDER 
+-FLUXOGRAMA
+-MAPA SITE
+-POLITICA</Text>
+					<XForm>
+						<PinX Unit="MM">0.814960621847242</PinX>
+						<PinY Unit="MM">8.299212628019227</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="13" UniqueID="{B904BACD-9C31-41BF-AAE3-D3D49368E5D8}" Name="Interface.13" NameU="Interface.13" Master="4">
+					<Text>CÓDIGO HTML
+INSERÇÃO DADOS
+LAYOUT</Text>
+					<XForm>
+						<PinX Unit="MM">2.213090532103494</PinX>
+						<PinY Unit="MM">7.248031542416731</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="15" UniqueID="{968E3348-4554-4011-A7F3-9A9E9358CF90}" Name="Processo.15" NameU="Process.15" Master="2">
+					<Text>CÓDIGO CSS
+INSERÇÃO DE ELEMENTOS GRÁFICOS
+</Text>
+					<XForm>
+						<PinX Unit="MM">6.384842510877020</PinX>
+						<PinY Unit="MM">5.197834677070425</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="17" UniqueID="{7DB89288-B736-46C8-B38B-730B5443FE49}" Name="Fluxo de dados" NameU="Data Flow" Master="7">
+					<XForm>
+						<PinX Unit="MM">4.052903529364272</PinX>
+						<PinY Unit="MM">6.053887838342954</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="20" UniqueID="{A6875693-D767-4E68-9F6C-F9E09DD3577F}" Name="Conector dinâmico.20" NameU="Dynamic connector.20" Master="5">
+					<XForm>
+						<PinX Unit="MM">7.744094479380957</PinX>
+						<PinY Unit="MM">6.419783514045380</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="19" UniqueID="{DB744596-997A-495C-86B8-6527B7B49E92}" Name="Interface.19" NameU="Interface.19" Master="4">
+					<XForm>
+						<PinX Unit="MM">7.744094479380957</PinX>
+						<PinY Unit="MM">5.089567000353519</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="21" UniqueID="{C4608F24-D18D-4A97-8F72-F88B65149F75}" Name="Interface.18" NameU="Interface.18">
+					<Text>ORGANIZAÇÃO CÓD
+CONTROLE DE VERSÃO</Text>
+					<XForm>
+						<PinX Unit="MM">7.744094479380957</PinX>
+						<PinY Unit="MM">5.089567000353519</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="22" UniqueID="{1D183EB9-AAB7-4100-93B9-A55D0E88FC6C}" Name="Fluxo de dados.22" NameU="Data Flow.22" Master="7">
+					<XForm>
+						<PinX Unit="MM">7.064468498883612</PinX>
+						<PinY Unit="MM">5.164370135637124</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="23" UniqueID="{1184B3C1-19AC-4DD2-90F8-99CF8678C3F8}" Name="Fluxo de dados.23" NameU="Data Flow.23" Master="7">
+					<XForm>
+						<PinX Unit="MM">4.934424190769920</PinX>
+						<PinY Unit="MM">5.841043355042226</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="24" UniqueID="{E720F39F-4B6F-43F9-A3BC-3E2738F946EC}" Name="Fluxo de dados.24" NameU="Data Flow.24" Master="7">
+					<XForm>
+						<PinX Unit="MM">2.435039343300550</PinX>
+						<PinY Unit="MM">7.660925240036169</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="25" UniqueID="{5DE3240D-5A42-4385-ABA1-5828F7E06224}" Name="Fluxo de dados.25" NameU="Data Flow.25" Master="7">
+					<XForm>
+						<PinX Unit="MM">5.754428874683247</PinX>
+						<PinY Unit="MM">6.635826804944410</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="26" UniqueID="{919C0AD4-51F1-4CE2-849F-8980E491D909}" Name="Interface.26" NameU="Interface.26" Master="4">
+					<Text>VERSÃO FINAL
+</Text>
+					<XForm>
+						<PinX Unit="MM">5.025590542373083</PinX>
+						<PinY Unit="MM">3.012795318164823</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="27" UniqueID="{16607E07-1591-4FCE-A322-F079A6937746}" Name="Fluxo de dados.27" NameU="Data Flow.27" Master="7">
+					<XForm>
+						<PinX Unit="MM">2.649175684385650</PinX>
+						<PinY Unit="MM">5.430610277891192</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="28" UniqueID="{FB061546-9978-4056-945F-7F713866DF04}" Name="Fluxo de dados.28" NameU="Data Flow.28" Master="7">
+					<XForm>
+						<PinX Unit="MM">2.230314946316887</PinX>
+						<PinY Unit="MM">8.924704917674227</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="30" UniqueID="{FF3A883A-C0F9-48F8-AD8C-B40E77365B32}" Name="Processo.30" NameU="Process.30" Master="2">
+					<Text>VERSÃO BETA
+</Text>
+					<XForm>
+						<PinX Unit="MM">5.025590542373083</PinX>
+						<PinY Unit="MM">4.125984294542776</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="31" UniqueID="{3EB0609B-2851-4688-BBAB-502449B50DDC}" Name="Fluxo de dados.31" NameU="Data Flow.31" Master="7">
+					<XForm>
+						<PinX Unit="MM">3.171382867958625</PinX>
+						<PinY Unit="MM">5.574311070879338</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="32" UniqueID="{E4E0AE47-082A-442C-BDA0-F5CDA5F92285}" Name="Fluxo de dados.32" NameU="Data Flow.32" Master="7">
+					<XForm>
+						<PinX Unit="MM">5.951279522505659</PinX>
+						<PinY Unit="MM">4.436515790605768</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="33" UniqueID="{7167BC77-D5C2-4551-B8E9-CD15F9962266}" Name="Fluxo de dados.33" NameU="Data Flow.33" Master="7">
+					<XForm>
+						<PinX Unit="MM">5.025590542373083</PinX>
+						<PinY Unit="MM">3.692421306171415</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="34" UniqueID="{3CED3142-AB0B-4DBF-9BC2-F3C96471069A}" Name="Interface.34" NameU="Interface.34" Master="4">
+					<Text>JAVASCRIPT
+</Text>
+					<XForm>
+						<PinX Unit="MM">7.921260036635283</PinX>
+						<PinY Unit="MM">2.392716460715134</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="36" UniqueID="{E6C1CCCD-19BD-410D-97D9-2AAB85F1604A}" Name="Fluxo de dados.36" NameU="Data Flow.36" Master="7">
+					<XForm>
+						<PinX Unit="MM">8.340428242260089</PinX>
+						<PinY Unit="MM">4.899343700963857</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="40" UniqueID="{B4486AAE-D876-411F-8585-C35871475646}" Name="Fluxo de dados.40" NameU="Data Flow.40" Master="7">
+					<XForm>
+						<PinX Unit="MM">6.701241090231939</PinX>
+						<PinY Unit="MM">3.271653518152310</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="41" UniqueID="{AC1DBBA2-9FF7-457A-81BB-DD0833142D2D}" Name="Processo.41" NameU="Process.41" Master="2">
+					<Text>CÓPIA DE SEGURANÇA PARA CADA MEMBRO
+</Text>
+					<XForm>
+						<PinX Unit="MM">5.025590542373083</PinX>
+						<PinY Unit="MM">1.653543349660886</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="42" UniqueID="{B755CFF7-1871-498A-A19D-B74397671FAE}" Name="Fluxo de dados.42" NameU="Data Flow.42" Master="7">
+					<XForm>
+						<PinX Unit="MM">5.025590542373083</PinX>
+						<PinY Unit="MM">2.333169337667477</PinY>
+					</XForm>
+				</Shape>
+			</Shapes>
+		</Page>
+	</Pages>
+</VisioDocument>

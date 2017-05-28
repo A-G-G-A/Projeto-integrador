@@ -1,0 +1,182 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="stylesheet" type="text/css" href="visio.css"/>
+<title>
+Mapa_projeto_site
+</title>
+<script type="text/javascript" language="javascript">
+function UpdateTooltip(){};
+function OnShapeClick(){};
+</script>
+
+<script src="png_1.js" type="text/javascript" language="javascript"></script>
+<script type="text/javascript" language="javascript">
+	if( (parent.isSVG) || 
+		(parent.isVML && parent.vmlSupported) || 
+		(parent.isXAML && parent.isUpLevel)) 
+	{
+		location.replace(parent.g_FileList[parent.g_CurPageIndex].PriImage);
+	}
+</script>
+
+
+<script type="text/javascript" language="javascript">
+var pageID = 0;
+var isUpLevel = parent.isUpLevel;
+var OnShapeClick = null;
+if (!parent.isMac)
+{
+	OnShapeClick = parent.OnShapeClick;
+}
+
+var OnShapeKey = parent.OnShapeKey;
+var UpdateTooltip = parent.UpdateTooltip;
+var clickMenu = parent.clickMenu;
+var toggleMenuDiv = parent.toggleMenuDiv;
+var toggleMenuLink = parent.toggleMenuLink;
+var GoToPage = parent.GoToPage;
+
+
+if (parent.isUpLevel)
+{
+
+	if (parent.g_FirstPageToLoad != null && parent.g_FirstPageToLoad.length > 0)
+	{
+		if (parent.g_FileList[parent.g_CurPageIndex].PageID != pageID)
+		{
+			var fileEntry = parent.g_FileList[parent.g_CurPageIndex];
+			var fileToLoad = fileToLoad = fileEntry.PriImage;
+			if (fileEntry.SecImage.length > 0)
+			{
+				fileToLoad = fileEntry.SecImage;
+			}
+
+			location.replace(fileToLoad);
+		}
+
+		parent.g_FirstPageToLoad = null;
+	}
+
+
+	var viewMgr = new parent.CViewMgr();
+	parent.viewMgr = viewMgr;
+
+	viewMgr.SupportsDetails = true;
+	viewMgr.SupportsSearch = true;
+
+	viewMgr.put_Location = ViewMgrSetRasterLocation;
+	viewMgr.visBBoxLeft = 0.437329;
+	viewMgr.visBBoxRight = 7.750518;
+	viewMgr.visBBoxBottom = 2.775591;
+	viewMgr.visBBoxTop = 8.917323;
+	viewMgr.highlightDiv = null;
+}
+
+function load ()
+{
+	if(isUpLevel)
+	{
+		arrowdiv.innerHTML = '<img id="arrowgif" alt="Mostra o local da forma selecionada" src="arrow.png"/>';
+
+		var pageIndex = parent.PageIndexFromID (pageID);
+		parent.CurPageUpdate (pageIndex);
+	}
+}
+
+function unload()
+{
+	if(isUpLevel)
+	{
+		viewMgr = null;
+		parent.viewMgr = null;
+	}
+}
+
+window.onload = load;
+window.onunload = unload;
+document.onclick = clickMenu;
+
+</script>
+<style type="text/css"> 
+body {
+	background:url(foo) fixed;
+	padding: 10px;
+}
+div.banner {
+	position: fixed;
+	_position: absolute;
+	top: 0;
+	left: 0;
+	_top: expression(eval(document.body.scrollTop));
+	_left: expression(eval(document.body.scrollLeft));
+	width: 100%;
+	_width: expression(eval(document.body.clientWidth));
+	margin: 0;
+	padding: 3px;
+	padding-left: 6px;
+	background:lime;
+	background-color: #FFFFC6;
+	font: 11px tahoma,arial,serif;
+	border-bottom: 2px ridge #FFFFC6;
+}
+</style>
+</head>
+
+<body class="pageView" bgcolor="#FFFFFF" style="margin: 0px">
+
+<script type="text/javascript" language="javascript">
+// Displays the banner prompt to install Silverlight
+if (parent.slSupported && !parent.slInstalled)
+{
+	var slBanner = document.createElement("div");
+	slBanner.className = "banner";
+	slBanner.innerHTML = 'Para habilitar funcionalidade total, como Panorâmica e Zoom, <a href="https://www.microsoft.com/silverlight/resources/install.aspx" target="parent">clique aqui</a> para instalar o plug-in do Silverlight.';
+
+	document.body.appendChild(slBanner);
+	document.body.style.paddingTop = "2.5em";
+}
+</script>
+
+
+<div id="arrowdiv" style="position:absolute;top:0;left:0;visibility:hidden;z-index:5">
+</div>
+
+<div id="menu1" onclick="clickMenu()" class="hlMenu">
+</div>
+<DIV id="RasterDiv" style="margin:10px">
+
+<center>
+  <IMG id="ConvertedImage" SRC="png_1.png" ALT="Página-1" name=RasterImage BORDER="0" USEMAP="#visImageMap">
+</center>
+
+<MAP NAME="visImageMap">
+  <AREA shape="POLYGON" tabindex="1" ALT="www.w3schools.com/" origTitle="www.w3schools.com/" TITLE="www.w3schools.com/" HREF="https://www.w3schools.com/" target="_top" COORDS="129,299,131,299,131,302,225,302,225,288,223,288,223,288,138,288,138,288,131,288,131,291,129,291,129,284,110,284,110,307,129,307,129,299" onmouseover="UpdateTooltip(this,0,336,event)" onfocus="UpdateTooltip(this,0,336,event)" onclick="return OnShapeClick(0,336,event);" onkeyup="OnShapeKey(0,336,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="pt.stackoverflow.com/" origTitle="pt.stackoverflow.com/" TITLE="pt.stackoverflow.com/" HREF="https://pt.stackoverflow.com/" target="_top" COORDS="318,110,320,110,320,113,415,113,415,99,413,99,413,99,327,99,327,99,320,99,320,102,318,102,318,95,299,95,299,117,318,117,318,110" onmouseover="UpdateTooltip(this,0,322,event)" onfocus="UpdateTooltip(this,0,322,event)" onclick="return OnShapeClick(0,322,event);" onkeyup="OnShapeKey(0,322,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="github.com/" origTitle="github.com/" TITLE="github.com/" HREF="https://github.com/" target="_top" COORDS="196,110,197,110,197,113,254,113,254,99,251,99,251,99,204,99,204,99,197,99,197,102,196,102,196,95,176,95,176,117,196,117,196,110" onmouseover="UpdateTooltip(this,0,308,event)" onfocus="UpdateTooltip(this,0,308,event)" onclick="return OnShapeClick(0,308,event);" onkeyup="OnShapeKey(0,308,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Nintendo" origTitle="Nintendo" TITLE="Nintendo" HREF="https://es.wikipedia.org/wiki/Nintendo" target="_top" COORDS="59,394,61,394,61,397,106,397,106,383,104,383,104,383,68,383,68,383,61,383,61,386,59,386,59,378,40,378,40,401,59,401,59,394" onmouseover="UpdateTooltip(this,0,294,event)" onfocus="UpdateTooltip(this,0,294,event)" onclick="return OnShapeClick(0,294,event);" onkeyup="OnShapeKey(0,294,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="History_of_Nintendo" origTitle="History_of_Nintendo" TITLE="History_of_Nintendo" HREF="https://en.wikipedia.org/wiki/History_of_Nintendo" target="_top" COORDS="605,489,607,489,607,491,696,491,696,477,693,477,693,477,614,477,614,477,607,477,607,480,605,480,605,473,586,473,586,496,605,496,605,489" onmouseover="UpdateTooltip(this,0,280,event)" onfocus="UpdateTooltip(this,0,280,event)" onclick="return OnShapeClick(0,280,event);" onkeyup="OnShapeKey(0,280,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="index1.html#" origTitle="index1.html#" TITLE="index1.html#" HREF="file:///C:/Users/alber/Documents/GitHub/Projeto-integrador/index1.html?%23" target="_top" COORDS="194,583,196,583,196,586,256,586,256,572,253,572,253,572,203,572,203,572,196,572,196,575,194,575,194,568,175,568,175,590,194,590,194,583" onmouseover="UpdateTooltip(this,0,266,event)" onfocus="UpdateTooltip(this,0,266,event)" onclick="return OnShapeClick(0,266,event);" onkeyup="OnShapeKey(0,266,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="index1.html#refer" origTitle="index1.html#refer" TITLE="index1.html#refer" HREF="file:///C:/Users/alber/Documents/GitHub/Projeto-integrador/index1.html?%23refer" target="_top" COORDS="326,205,328,205,328,208,407,208,407,194,404,194,404,194,335,194,335,194,328,194,328,196,326,196,326,189,307,189,307,212,326,212,326,205" onmouseover="UpdateTooltip(this,0,238,event)" onfocus="UpdateTooltip(this,0,238,event)" onclick="return OnShapeClick(0,238,event);" onkeyup="OnShapeKey(0,238,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="index1.html#doc" origTitle="index1.html#doc" TITLE="index1.html#doc" HREF="file:///C:/Users/alber/Documents/GitHub/Projeto-integrador/index1.html?%23doc" target="_top" COORDS="187,205,189,205,189,208,263,208,263,194,260,194,260,194,196,194,196,194,189,194,189,196,187,196,187,189,168,189,168,212,187,212,187,205" onmouseover="UpdateTooltip(this,0,224,event)" onfocus="UpdateTooltip(this,0,224,event)" onclick="return OnShapeClick(0,224,event);" onkeyup="OnShapeKey(0,224,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="index1.html#segur" origTitle="index1.html#segur" TITLE="index1.html#segur" HREF="file:///C:/Users/alber/Documents/GitHub/Projeto-integrador/index1.html?%23segur" target="_top" COORDS="467,394,469,394,469,397,550,397,550,383,547,383,547,383,476,383,476,383,469,383,469,386,467,386,467,378,448,378,448,401,467,401,467,394" onmouseover="UpdateTooltip(this,0,210,event)" onfocus="UpdateTooltip(this,0,210,event)" onclick="return OnShapeClick(0,210,event);" onkeyup="OnShapeKey(0,210,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="index1.html#Curis" origTitle="index1.html#Curis" TITLE="index1.html#Curis" HREF="file:///C:/Users/alber/Documents/GitHub/Projeto-integrador/index1.html?%23Curis" target="_top" COORDS="326,489,328,489,328,491,407,491,407,477,404,477,404,477,335,477,335,477,328,477,328,480,326,480,326,473,307,473,307,496,326,496,326,489" onmouseover="UpdateTooltip(this,0,196,event)" onfocus="UpdateTooltip(this,0,196,event)" onclick="return OnShapeClick(0,196,event);" onkeyup="OnShapeKey(0,196,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="index1.html#Grafic" origTitle="index1.html#Grafic" TITLE="index1.html#Grafic" HREF="file:///C:/Users/alber/Documents/GitHub/Projeto-integrador/index1.html?%23Grafic" target="_top" COORDS="466,489,468,489,468,491,551,491,551,477,548,477,548,477,475,477,475,477,468,477,468,480,466,480,466,473,447,473,447,496,466,496,466,489" onmouseover="UpdateTooltip(this,0,182,event)" onfocus="UpdateTooltip(this,0,182,event)" onclick="return OnShapeClick(0,182,event);" onkeyup="OnShapeKey(0,182,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="index1.html#Produtosprinc" origTitle="index1.html#Produtosprinc" TITLE="index1.html#Produtosprinc" HREF="file:///C:/Users/alber/Documents/GitHub/Projeto-integrador/index1.html?%23Produtosprinc" target="_top" COORDS="33,205,34,205,34,213,133,213,133,188,131,188,131,188,41,188,41,188,34,188,34,196,33,196,33,189,14,189,14,212,33,212,33,205" onmouseover="UpdateTooltip(this,0,168,event)" onfocus="UpdateTooltip(this,0,168,event)" onclick="return OnShapeClick(0,168,event);" onkeyup="OnShapeKey(0,168,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="index1.html#linha4" origTitle="index1.html#linha4" TITLE="index1.html#linha4" HREF="file:///C:/Users/alber/Documents/GitHub/Projeto-integrador/index1.html?%23linha4" target="_top" COORDS="40,110,42,110,42,113,125,113,125,99,122,99,122,99,49,99,49,99,42,99,42,102,40,102,40,95,21,95,21,117,40,117,40,110" onmouseover="UpdateTooltip(this,0,154,event)" onfocus="UpdateTooltip(this,0,154,event)" onclick="return OnShapeClick(0,154,event);" onkeyup="OnShapeKey(0,154,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="index1.html#linha3" origTitle="index1.html#linha3" TITLE="index1.html#linha3" HREF="file:///C:/Users/alber/Documents/GitHub/Projeto-integrador/index1.html?%23linha3" target="_top" COORDS="324,15,326,15,326,18,409,18,409,4,406,4,406,4,333,4,333,4,326,4,326,7,324,7,324,0,305,0,305,23,324,23,324,15" onmouseover="UpdateTooltip(this,0,140,event)" onfocus="UpdateTooltip(this,0,140,event)" onclick="return OnShapeClick(0,140,event);" onkeyup="OnShapeKey(0,140,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="index1.html#linha2" origTitle="index1.html#linha2" TITLE="index1.html#linha2" HREF="file:///C:/Users/alber/Documents/GitHub/Projeto-integrador/index1.html?%23linha2" target="_top" COORDS="182,15,184,15,184,18,267,18,267,4,264,4,264,4,191,4,191,4,184,4,184,7,182,7,182,0,163,0,163,23,182,23,182,15" onmouseover="UpdateTooltip(this,0,126,event)" onfocus="UpdateTooltip(this,0,126,event)" onclick="return OnShapeClick(0,126,event);" onkeyup="OnShapeKey(0,126,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="index1.html#linha1" origTitle="index1.html#linha1" TITLE="index1.html#linha1" HREF="file:///C:/Users/alber/Documents/GitHub/Projeto-integrador/index1.html?%23linha1" target="_top" COORDS="324,394,326,394,326,397,409,397,409,383,406,383,406,383,333,383,333,383,326,383,326,386,324,386,324,378,305,378,305,401,324,401,324,394" onmouseover="UpdateTooltip(this,0,112,event)" onfocus="UpdateTooltip(this,0,112,event)" onclick="return OnShapeClick(0,112,event);" onkeyup="OnShapeKey(0,112,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="index1.html#linha0" origTitle="index1.html#linha0" TITLE="index1.html#linha0" HREF="file:///C:/Users/alber/Documents/GitHub/Projeto-integrador/index1.html?%23linha0" target="_top" COORDS="182,394,184,394,184,397,267,397,267,383,264,383,264,383,191,383,191,383,184,383,184,386,182,386,182,378,163,378,163,401,182,401,182,394" onmouseover="UpdateTooltip(this,0,98,event)" onfocus="UpdateTooltip(this,0,98,event)" onclick="return OnShapeClick(0,98,event);" onkeyup="OnShapeKey(0,98,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="index1.html#HistoriaCron" origTitle="index1.html#HistoriaCron" TITLE="index1.html#HistoriaCron" HREF="file:///C:/Users/alber/Documents/GitHub/Projeto-integrador/index1.html?%23HistoriaCron" target="_top" COORDS="458,205,460,205,460,213,559,213,559,188,555,188,555,188,468,188,468,188,460,188,460,196,458,196,458,189,439,189,439,212,458,212,458,205" onmouseover="UpdateTooltip(this,0,84,event)" onfocus="UpdateTooltip(this,0,84,event)" onclick="return OnShapeClick(0,84,event);" onkeyup="OnShapeKey(0,84,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="index1.html#HistoriaPrinc" origTitle="index1.html#HistoriaPrinc" TITLE="index1.html#HistoriaPrinc" HREF="file:///C:/Users/alber/Documents/GitHub/Projeto-integrador/index1.html?%23HistoriaPrinc" target="_top" COORDS="506,299,508,299,508,308,606,308,606,283,604,283,604,283,514,283,514,283,508,283,508,291,506,291,506,284,487,284,487,307,506,307,506,299" onmouseover="UpdateTooltip(this,0,70,event)" onfocus="UpdateTooltip(this,0,70,event)" onclick="return OnShapeClick(0,70,event);" onkeyup="OnShapeKey(0,70,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Script (cliente) Links (1)" origTitle="Script (cliente) Links (1)" TITLE="Script (cliente) Links (1)"  target="_top" COORDS="175,489,176,489,176,491,275,491,275,477,272,477,272,477,183,477,183,477,176,477,176,480,175,480,175,473,152,473,152,496,175,496,175,489" onmouseover="UpdateTooltip(this,0,56,event)" onfocus="UpdateTooltip(this,0,56,event)" onclick="return OnShapeClick(0,56,event);" onkeyup="OnShapeKey(0,56,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Folha de estilos Links (1)" origTitle="Folha de estilos Links (1)" TITLE="Folha de estilos Links (1)"  target="_top" COORDS="506,110,508,110,508,119,606,119,606,93,601,93,601,93,519,93,519,93,508,93,508,102,506,102,506,95,483,95,483,117,506,117,506,110" onmouseover="UpdateTooltip(this,0,42,event)" onfocus="UpdateTooltip(this,0,42,event)" onclick="return OnShapeClick(0,42,event);" onkeyup="OnShapeKey(0,42,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="css?family=Open+Sans:300,400,600,700|Quicksand:300,700" origTitle="css?family=Open+Sans:300,400,600,700|Quicksand:300,700" TITLE="css?family=Open+Sans:300,400,600,700|Quicksand:300,700" HREF="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Quicksand:300,700" target="_top" COORDS="600,394,602,394,602,408,701,408,701,372,698,372,698,372,609,372,609,372,602,372,602,386,600,386,600,378,581,378,581,401,600,401,600,394" onmouseover="UpdateTooltip(this,0,28,event)" onfocus="UpdateTooltip(this,0,28,event)" onclick="return OnShapeClick(0,28,event);" onkeyup="OnShapeKey(0,28,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="index1.html" origTitle="index1.html" TITLE="index1.html" HREF="file:///C:/Users/alber/Documents/GitHub/Projeto-integrador/index1.html" target="_top" COORDS="323,303,326,303,326,308,433,308,433,283,429,283,429,281,339,281,339,283,326,283,326,287,323,287,323,272,285,272,285,318,323,318,323,303" onmouseover="UpdateTooltip(this,0,1,event)" onfocus="UpdateTooltip(this,0,1,event)" onclick="return OnShapeClick(0,1,event);" onkeyup="OnShapeKey(0,1,event);">
+</MAP>
+
+
+</DIV>
+</body>
+</html>
