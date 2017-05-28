@@ -84,3 +84,5 @@ function setaImagem(){
 }
 
 window.addEventListener("load",setaImagem,false);
+
+

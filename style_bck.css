@@ -248,6 +248,26 @@ figure:hover span {opacity: 0.76;filter:alpha(opacity=76);}
 
 figcaption {padding-left: 20px;color: #fff; font-family: "Kaushan Script","Lato","arial"; font-size: 22px; background: rgba(230, 0, 18, 0.76); width: 100%; position: absolute; bottom: 0; left: 0; line-height: 55px; height: 55px; z-index: 5;text-shadow: 0 0 5px rgba(255,255,255,0.79)}
 
+/*GRAFICO e IMAGENS*/
 
+#grafico {
+ position: block;
+    margin-left: auto;
+    margin-right: auto;
 
-
+}
+#box-toggle {
+	width:500px;
+	margin:0 auto;
+	text-align:justify;
+	font:12px/1.4 Arial, Helvetica, sans-serif;
+	}
+#box-toggle .tgl {margin-bottom:30px;}
+#box-toggle span {
+	display:block;
+	cursor:pointer;
+	font-weight:bold;
+	font-size:14px;
+	color:#c30; 
+	margin-top:15px;
+	}
